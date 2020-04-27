@@ -34,7 +34,7 @@ class ProviderRepository
             'updated_at' => new Carbon(),
         ]);
 
-        $provider->save();
+        // $provider->save();
 
         return $provider;
     }
